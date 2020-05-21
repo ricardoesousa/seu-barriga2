@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9217cb481ad26fb",
+  "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+  "time" : {
+    "start" : 1590092058486,
+    "stop" : 1590092087615,
+    "duration" : 29129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

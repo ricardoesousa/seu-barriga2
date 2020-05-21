@@ -1,0 +1,81 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12219556700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Movimentação - Criar movimentação com sucesso",
+        "description": "",
+        "id": "movimentação;ct001---movimentação---criar-movimentação-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 2241563200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11009318100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu esteja logado e tenha acessado a página de movimentação",
+            "match": {
+              "location": "MovimentacaoSteps.euEstejaLogadoETenhaAcessadoAPáginaDeMovimentação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2486179800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu criar a movimentação com dados válidos",
+            "match": {
+              "location": "MovimentacaoSteps.euCriarAMovimentaçãoComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1140753300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo ver uma mensagem indicando que a operação foi realizada com sucesso",
+            "match": {
+              "location": "MovimentacaoSteps.euDevoVerUmaMensagemIndicandoQueAOperaçãoFoiRealizadaComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Movimentação",
+    "description": "",
+    "id": "movimentação",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Movimentacao.feature",
+    "tags": []
+  }
+]

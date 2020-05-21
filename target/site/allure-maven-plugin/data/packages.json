@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Movimentação",
+    "children" : [ {
+      "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+      "uid" : "9217cb481ad26fb",
+      "parentUid" : "9edecea67d39057a18c60180f33678fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590092058486,
+        "stop" : 1590092087615,
+        "duration" : 29129
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9edecea67d39057a18c60180f33678fc"
+  } ]
+}

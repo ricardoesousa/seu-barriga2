@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Movimentação",
+    "children" : [ {
+      "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+      "children" : [ {
+        "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+        "uid" : "9217cb481ad26fb",
+        "parentUid" : "c336781377f08844d6ccdaba7b229532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590092058486,
+          "stop" : 1590092087615,
+          "duration" : 29129
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c336781377f08844d6ccdaba7b229532"
+    } ],
+    "uid" : "e189f1dd0d3325374448e8e358a97cba"
+  } ]
+}

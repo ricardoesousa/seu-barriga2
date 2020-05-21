@@ -1,0 +1,14 @@
+driver\DriverManagerFactory$1.class
+pages\Contas.class
+driver\DriverType.class
+pages\Cadastro.class
+pages\Home.class
+hooks\DefaultProperties.class
+report\Report.class
+driver\ChromeDriverManager.class
+pages\Movimentacao.class
+driver\DriverManager.class
+driver\DriverManagerFactory.class
+driver\EdgeDriverManager.class
+pages\Login.class
+pages\NavBar.class

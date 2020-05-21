@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "BRPC003394",
+    "children" : [ {
+      "name" : "18788@BRPC003394.main(1)",
+      "children" : [ {
+        "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+        "uid" : "9217cb481ad26fb",
+        "parentUid" : "726cad284a10b8dbbaa00a845f197efc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590092058486,
+          "stop" : 1590092087615,
+          "duration" : 29129
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "726cad284a10b8dbbaa00a845f197efc"
+    } ],
+    "uid" : "98ba1a5cdd750456988ac42e46845803"
+  } ]
+}

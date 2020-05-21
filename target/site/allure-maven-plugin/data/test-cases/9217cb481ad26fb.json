@@ -1,0 +1,203 @@
+{
+  "uid" : "9217cb481ad26fb",
+  "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
+  "fullName" : "Movimentação: CT001 - Movimentação - Criar movimentação com sucesso",
+  "historyId" : "1a4b5e7c9b071267c6927fcf99ccec06",
+  "time" : {
+    "start" : 1590092058486,
+    "stop" : 1590092087615,
+    "duration" : 29129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hook.init()",
+    "time" : {
+      "start" : 1590092058493,
+      "stop" : 1590092070716,
+      "duration" : 12223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  eu esteja logado e tenha acessado a página de movimentação",
+      "time" : {
+        "start" : 1590092070719,
+        "stop" : 1590092081737,
+        "duration" : 11018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4eaa498dbc033a97",
+        "name" : "Page Screenshot",
+        "source" : "4eaa498dbc033a97.png",
+        "type" : "image/png",
+        "size" : 20571
+      }, {
+        "uid" : "832b4540a7877b56",
+        "name" : "Page Screenshot",
+        "source" : "832b4540a7877b56.png",
+        "type" : "image/png",
+        "size" : 25794
+      }, {
+        "uid" : "f69d4a6ca6ad18d8",
+        "name" : "Page Screenshot",
+        "source" : "f69d4a6ca6ad18d8.png",
+        "type" : "image/png",
+        "size" : 25568
+      }, {
+        "uid" : "cc82d65da37f233f",
+        "name" : "Page Screenshot",
+        "source" : "cc82d65da37f233f.png",
+        "type" : "image/png",
+        "size" : 27529
+      }, {
+        "uid" : "f1ae72a31036b9ac",
+        "name" : "Page Screenshot",
+        "source" : "f1ae72a31036b9ac.png",
+        "type" : "image/png",
+        "size" : 27001
+      }, {
+        "uid" : "71ee3c3d36e60d14",
+        "name" : "Page Screenshot",
+        "source" : "71ee3c3d36e60d14.png",
+        "type" : "image/png",
+        "size" : 21517
+      }, {
+        "uid" : "264b680b7829bc63",
+        "name" : "Page Screenshot",
+        "source" : "264b680b7829bc63.png",
+        "type" : "image/png",
+        "size" : 24432
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Quando  eu criar a movimentação com dados válidos",
+      "time" : {
+        "start" : 1590092081738,
+        "stop" : 1590092084229,
+        "duration" : 2491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2426a765afc1e2d5",
+        "name" : "Page Screenshot",
+        "source" : "2426a765afc1e2d5.png",
+        "type" : "image/png",
+        "size" : 35405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Entao  eu devo ver uma mensagem indicando que a operação foi realizada com sucesso",
+      "time" : {
+        "start" : 1590092084229,
+        "stop" : 1590092085370,
+        "duration" : 1141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "697fb4b87e678249",
+        "name" : "Page Screenshot",
+        "source" : "697fb4b87e678249.png",
+        "type" : "image/png",
+        "size" : 37043
+      }, {
+        "uid" : "a95aad0399b0f966",
+        "name" : "Page Screenshot",
+        "source" : "a95aad0399b0f966.png",
+        "type" : "image/png",
+        "size" : 20571
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Hook.tearDown()",
+    "time" : {
+      "start" : 1590092085371,
+      "stop" : 1590092087611,
+      "duration" : 2240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Movimentação"
+  }, {
+    "name" : "story",
+    "value" : "CT001 - Movimentação - Criar movimentação com sucesso"
+  }, {
+    "name" : "host",
+    "value" : "BRPC003394"
+  }, {
+    "name" : "thread",
+    "value" : "18788@BRPC003394.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Movimentação"
+  }, {
+    "name" : "suite",
+    "value" : "Movimentação"
+  }, {
+    "name" : "testClass",
+    "value" : "CT001 - Movimentação - Criar movimentação com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber3jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9217cb481ad26fb.json",
+  "parameterValues" : [ ]
+}
