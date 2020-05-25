@@ -6,7 +6,448 @@
         "before": [
           {
             "result": {
-              "duration": 12219556700,
+              "duration": 9316360000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Cadastro - Criar novo usuário com sucesso",
+        "description": "",
+        "id": "cadastro;ct001---cadastro---criar-novo-usuário-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 2512557700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3353321300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu tenha acessado a aplicação e esteja na página de cadastro de novo usuário",
+            "match": {
+              "location": "CadastroSteps.euTenhaAcessadoAAplicaçãoEEstejaNaPáginaDeCadastroDeNovoUsuário()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2627481200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu criar um novo usuário com dados válidos",
+            "match": {
+              "location": "CadastroSteps.euCriarUmNovoUsuárioComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 465853600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo ver uma mensagem indicando que o usuário foi criado com sucesso",
+            "match": {
+              "location": "CadastroSteps.euDevoVerUmaMensagemIndicandoQueOUsuarioFoiCriadoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1874133100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "CT002 - Cadastro - Criar novo usuário com email em formato inválido",
+        "description": "",
+        "id": "cadastro;ct002---cadastro---criar-novo-usuário-com-email-em-formato-inválido",
+        "after": [
+          {
+            "result": {
+              "duration": 1491068600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3760568000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu tenha acessado a aplicação e esteja na página de cadastro de novo usuário",
+            "match": {
+              "location": "CadastroSteps.euTenhaAcessadoAAplicaçãoEEstejaNaPáginaDeCadastroDeNovoUsuário()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2439447800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu criar um novo usuário com email inválido",
+            "match": {
+              "location": "CadastroSteps.euCriarUmNovoUsuárioComEmailInválido()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 600687800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu devo ver uma mensagem indicando que o o email está no formato inválido",
+            "match": {
+              "location": "CadastroSteps.euDevoVerUmaMensagemIndicandoQueOOEmailEstáNoFormatoInválido()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro",
+    "description": "",
+    "id": "cadastro",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Cadastro.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1957457800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Conta - Criar conta com sucesso",
+        "description": "",
+        "id": "conta;ct001---conta---criar-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 1257779100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4581074300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu esteja logado e tenha acessado a página de contas",
+            "match": {
+              "location": "ContaSteps.euEstejaLogadoETenhaAcessadoAPáginaDeContas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1046062500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu criar uma nova conta com dados válidos",
+            "match": {
+              "location": "ContaSteps.euCriarUmaNovaContaComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 433798100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo ver uma mensagem indicando que a conta foi cadastrada com sucesso",
+            "match": {
+              "location": "ContaSteps.euDevoVerUmaMensagemIndicandoQueAContaFoiCadastradaComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1916537700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "CT002 - Conta - Criar conta com nome vazio",
+        "description": "",
+        "id": "conta;ct002---conta---criar-conta-com-nome-vazio",
+        "after": [
+          {
+            "result": {
+              "duration": 1257361500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4862910500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu esteja logado e tenha acessado a página de contas",
+            "match": {
+              "location": "ContaSteps.euEstejaLogadoETenhaAcessadoAPáginaDeContas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 721021500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu criar uma nova conta com nome não preenchido",
+            "match": {
+              "location": "ContaSteps.euCriarUmaNovaContaComNomeNãoPreenchido()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 423086800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu devo ver uma mensagem indicando que o dado deve ser informado",
+            "match": {
+              "location": "ContaSteps.euDevoVerUmaMensagemIndicandoQueODadoDeveSerInformado()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Conta",
+    "description": "",
+    "id": "conta",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Conta.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1812863400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Login - Efetuar login com sucesso",
+        "description": "",
+        "id": "login;ct001---login---efetuar-login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 1099467600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3246126600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu tenha acessado a aplicação e esteja na página de login",
+            "match": {
+              "location": "LoginSteps.euTenhaAcessadoAAplicaçãoEEstejaNaPáginaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1288284400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu logar no sistema com dados válidos",
+            "match": {
+              "location": "LoginSteps.euLogarNoSistemaComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 454954800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo acessar a home e ver uma mensagem com o nome de usuário",
+            "match": {
+              "location": "LoginSteps.euDevoAcessarAHomeEVerUmaMensagemComONomeDeUsuário()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1850000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "CT002 - Login - Efetuar login com senha inválida",
+        "description": "",
+        "id": "login;ct002---login---efetuar-login-com-senha-inválida",
+        "after": [
+          {
+            "result": {
+              "duration": 1796348900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2868561200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu tenha acessado a aplicação e esteja na página de login",
+            "match": {
+              "location": "LoginSteps.euTenhaAcessadoAAplicaçãoEEstejaNaPáginaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1305604500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu logar no sistema com senha inválida",
+            "match": {
+              "location": "LoginSteps.euLogarNoSistemaComSenhaInválida()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 420147100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu devo ver uma mensagem indicando que houve problema no login",
+            "match": {
+              "location": "LoginSteps.euDevoVerUmaMensagemIndicandoQueHouveProblemaNoLogin()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1790505700,
               "status": "passed"
             },
             "match": {
@@ -21,7 +462,7 @@
         "after": [
           {
             "result": {
-              "duration": 2241563200,
+              "duration": 1017424500,
               "status": "passed"
             },
             "match": {
@@ -34,7 +475,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11009318100,
+              "duration": 6193039200,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 2486179800,
+              "duration": 2043976400,
               "status": "passed"
             },
             "line": 9,
@@ -58,13 +499,81 @@
           },
           {
             "result": {
-              "duration": 1140753300,
+              "duration": 435577000,
               "status": "passed"
             },
             "line": 10,
-            "name": "eu devo ver uma mensagem indicando que a operação foi realizada com sucesso",
+            "name": "eu devo ver uma mensagem indicando que a movimentação foi criada com sucesso",
             "match": {
-              "location": "MovimentacaoSteps.euDevoVerUmaMensagemIndicandoQueAOperaçãoFoiRealizadaComSucesso()"
+              "location": "MovimentacaoSteps.euDevoVerUmaMensagemIndicandoQueAMovimentaçãoFoiCriadaComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2303159100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "CT001 - Movimentação - Criar movimentação com data posterior à atual",
+        "description": "",
+        "id": "movimentação;ct001---movimentação---criar-movimentação-com-data-posterior-à-atual",
+        "after": [
+          {
+            "result": {
+              "duration": 1389737400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4714320400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu esteja logado e tenha acessado a página de movimentação",
+            "match": {
+              "location": "MovimentacaoSteps.euEstejaLogadoETenhaAcessadoAPáginaDeMovimentação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1917729200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu criar a movimentação com data posterior à atual",
+            "match": {
+              "location": "MovimentacaoSteps.euCriarAMovimentaçãoComDataPosteriorÀAtual()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 456928700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu devo ver uma mensagem indicando que a data está fora dos parâmetros",
+            "match": {
+              "location": "MovimentacaoSteps.euDevoVerUmaMensagemIndicandoQueADataEstáForaDosParâmetros()"
             },
             "keyword": "Entao "
           }

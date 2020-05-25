@@ -1,0 +1,161 @@
+{
+  "uid" : "e52e1b1a57f4b83b",
+  "name" : "CT001 - Login - Efetuar login com sucesso",
+  "fullName" : "Login: CT001 - Login - Efetuar login com sucesso",
+  "historyId" : "ba044272b2b495486400b715a908e7e8",
+  "time" : {
+    "start" : 1590442402168,
+    "stop" : 1590442410072,
+    "duration" : 7904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hook.init()",
+    "time" : {
+      "start" : 1590442402168,
+      "stop" : 1590442403980,
+      "duration" : 1812
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  eu tenha acessado a aplicação e esteja na página de login",
+      "time" : {
+        "start" : 1590442403980,
+        "stop" : 1590442407228,
+        "duration" : 3248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1488293054010983",
+        "name" : "Foto da Tela",
+        "source" : "1488293054010983.png",
+        "type" : "image/png",
+        "size" : 20571
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quando  eu logar no sistema com dados válidos",
+      "time" : {
+        "start" : 1590442407228,
+        "stop" : 1590442408517,
+        "duration" : 1289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18e13dac71dd0e0",
+        "name" : "Foto da Tela",
+        "source" : "18e13dac71dd0e0.png",
+        "type" : "image/png",
+        "size" : 22153
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entao  eu devo acessar a home e ver uma mensagem com o nome de usuário",
+      "time" : {
+        "start" : 1590442408517,
+        "stop" : 1590442408972,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4026491d5e18129d",
+        "name" : "Foto da Tela",
+        "source" : "4026491d5e18129d.png",
+        "type" : "image/png",
+        "size" : 26882
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hook.tearDown()",
+    "time" : {
+      "start" : 1590442408972,
+      "stop" : 1590442410072,
+      "duration" : 1100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "CT001 - Login - Efetuar login com sucesso"
+  }, {
+    "name" : "host",
+    "value" : "BRPC003394"
+  }, {
+    "name" : "thread",
+    "value" : "12352@BRPC003394.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "CT001 - Login - Efetuar login com sucesso"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber3jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e52e1b1a57f4b83b.json",
+  "parameterValues" : [ ]
+}

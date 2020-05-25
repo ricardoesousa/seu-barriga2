@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.79085">
-<testcase classname="Movimentação" name="CT001 - Movimentação - Criar movimentação com sucesso" time="29.79085">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="86.085636">
+<testcase classname="Cadastro" name="CT001 - Cadastro - Criar novo usuário com sucesso" time="18.996243">
+<system-out><![CDATA[Dado eu tenha acessado a aplicação e esteja na página de cadastro de novo usuário.passed
+Quando eu criar um novo usuário com dados válidos...........................passed
+Entao eu devo ver uma mensagem indicando que o usuário foi criado com sucesso.passed
+]]></system-out>
+</testcase>
+<testcase classname="Cadastro" name="CT002 - Cadastro - Criar novo usuário com email em formato inválido" time="10.177715">
+<system-out><![CDATA[Dado eu tenha acessado a aplicação e esteja na página de cadastro de novo usuário.passed
+Quando eu criar um novo usuário com email inválido..........................passed
+Entao eu devo ver uma mensagem indicando que o o email está no formato inválido.passed
+]]></system-out>
+</testcase>
+<testcase classname="Conta" name="CT001 - Conta - Criar conta com sucesso" time="9.283755">
+<system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de contas...................passed
+Quando eu criar uma nova conta com dados válidos............................passed
+Entao eu devo ver uma mensagem indicando que a conta foi cadastrada com sucesso.passed
+]]></system-out>
+</testcase>
+<testcase classname="Conta" name="CT002 - Conta - Criar conta com nome vazio" time="9.193257">
+<system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de contas...................passed
+Quando eu criar uma nova conta com nome não preenchido......................passed
+Entao eu devo ver uma mensagem indicando que o dado deve ser informado......passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="CT001 - Login - Efetuar login com sucesso" time="7.908892">
+<system-out><![CDATA[Dado eu tenha acessado a aplicação e esteja na página de login..............passed
+Quando eu logar no sistema com dados válidos................................passed
+Entao eu devo acessar a home e ver uma mensagem com o nome de usuário.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="CT002 - Login - Efetuar login com senha inválida" time="8.247366">
+<system-out><![CDATA[Dado eu tenha acessado a aplicação e esteja na página de login..............passed
+Quando eu logar no sistema com senha inválida...............................passed
+Entao eu devo ver uma mensagem indicando que houve problema no login........passed
+]]></system-out>
+</testcase>
+<testcase classname="Movimentação" name="CT001 - Movimentação - Criar movimentação com sucesso" time="11.49158">
 <system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de movimentação.............passed
 Quando eu criar a movimentação com dados válidos............................passed
-Entao eu devo ver uma mensagem indicando que a operação foi realizada com sucesso.passed
+Entao eu devo ver uma mensagem indicando que a movimentação foi criada com sucesso.passed
+]]></system-out>
+</testcase>
+<testcase classname="Movimentação" name="CT001 - Movimentação - Criar movimentação com data posterior à atual" time="10.786828">
+<system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de movimentação.............passed
+Quando eu criar a movimentação com data posterior à atual...................passed
+Entao eu devo ver uma mensagem indicando que a data está fora dos parâmetros.passed
 ]]></system-out>
 </testcase>
 </testsuite>

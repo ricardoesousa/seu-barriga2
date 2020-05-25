@@ -26,20 +26,20 @@ public class Login extends DriverManagerFactory implements DefaultProperties {
 
     public void acessaAplicacao() {
         getDriver().get(URL_BASE);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
     }
 
     public boolean validaCadastro(String valCadastro) {
         String txtUsuarioInseridoComSucesso = msgUsuarioInseridoComSucesso.getText();
         assertEquals(valCadastro, txtUsuarioInseridoComSucesso);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
         return true;
     }
 
     public void entra(String email, String senha) {
         txtEmail.sendKeys(email);
         txtSenha.sendKeys(senha);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
         btnEntrar.click();
     }
 

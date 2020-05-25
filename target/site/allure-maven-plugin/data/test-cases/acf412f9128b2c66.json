@@ -1,0 +1,173 @@
+{
+  "uid" : "acf412f9128b2c66",
+  "name" : "CT001 - Movimentação - Criar movimentação com data posterior à atual",
+  "fullName" : "Movimentação: CT001 - Movimentação - Criar movimentação com data posterior à atual",
+  "historyId" : "880e4c7ac3eeee0ee0a95df5cb527e37",
+  "time" : {
+    "start" : 1590442429830,
+    "stop" : 1590442440615,
+    "duration" : 10785
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hook.init()",
+    "time" : {
+      "start" : 1590442429831,
+      "stop" : 1590442432134,
+      "duration" : 2303
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  eu esteja logado e tenha acessado a página de movimentação",
+      "time" : {
+        "start" : 1590442432134,
+        "stop" : 1590442436849,
+        "duration" : 4715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9209e7b980a75a5",
+        "name" : "Foto da Tela",
+        "source" : "b9209e7b980a75a5.png",
+        "type" : "image/png",
+        "size" : 20571
+      }, {
+        "uid" : "eb02fc8f33e3fa89",
+        "name" : "Foto da Tela",
+        "source" : "eb02fc8f33e3fa89.png",
+        "type" : "image/png",
+        "size" : 22208
+      }, {
+        "uid" : "8a038e68fad8b6db",
+        "name" : "Foto da Tela",
+        "source" : "8a038e68fad8b6db.png",
+        "type" : "image/png",
+        "size" : 32018
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Quando  eu criar a movimentação com data posterior à atual",
+      "time" : {
+        "start" : 1590442436849,
+        "stop" : 1590442438767,
+        "duration" : 1918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f94e6742a0bdc9b3",
+        "name" : "Foto da Tela",
+        "source" : "f94e6742a0bdc9b3.png",
+        "type" : "image/png",
+        "size" : 36398
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entao  eu devo ver uma mensagem indicando que a data está fora dos parâmetros",
+      "time" : {
+        "start" : 1590442438768,
+        "stop" : 1590442439225,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "929171f982f40021",
+        "name" : "Foto da Tela",
+        "source" : "929171f982f40021.png",
+        "type" : "image/png",
+        "size" : 43127
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Hook.tearDown()",
+    "time" : {
+      "start" : 1590442439225,
+      "stop" : 1590442440615,
+      "duration" : 1390
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Movimentação"
+  }, {
+    "name" : "story",
+    "value" : "CT001 - Movimentação - Criar movimentação com data posterior à atual"
+  }, {
+    "name" : "host",
+    "value" : "BRPC003394"
+  }, {
+    "name" : "thread",
+    "value" : "12352@BRPC003394.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Movimentação"
+  }, {
+    "name" : "suite",
+    "value" : "Movimentação"
+  }, {
+    "name" : "testClass",
+    "value" : "CT001 - Movimentação - Criar movimentação com data posterior à atual"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber3jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acf412f9128b2c66.json",
+  "parameterValues" : [ ]
+}

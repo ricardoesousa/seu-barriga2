@@ -23,22 +23,27 @@ public class NavBar {
 
     public void criaNovoUsuario() {
         lnkNovoUsuario.click();
+        Report.tiraFotoDaTela();
+
     }
 
     public void criaMovimentacao ()
     {
         lnkCriarMovimentacao.click();
+        Report.tiraFotoDaTela();
     }
 
     public void criaConta ()
     {
         lnkCriarConta.click();
         drpAdicionar.click();
+        Report.tiraFotoDaTela();
+
     }
 
     public void sai()
     {
         lnkSair.click();
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
     }
 }

@@ -23,7 +23,7 @@ public class Cadastro {
         txtNome.sendKeys(nome);
         txtEmail.sendKeys(email);
         txtSenha.sendKeys(senha);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
     }
 
     public void salvaCadastro() {

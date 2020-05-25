@@ -1,3 +1,6 @@
 runner\Runner.class
+steps\LoginSteps.class
 steps\MovimentacaoSteps.class
+steps\CadastroSteps.class
 hooks\Hook.class
+steps\ContaSteps.class

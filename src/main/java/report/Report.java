@@ -7,8 +7,8 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Report {
 
-    @Attachment(value = "Page Screenshot", type = "image/png")
-    public static byte[] takeScreenshot() {
+    @Attachment(value = "Foto da Tela", type = "image/png")
+    public static byte[] tiraFotoDaTela() {
         return ((TakesScreenshot) DriverManagerFactory.getDriver()).getScreenshotAs(OutputType.BYTES);
     }
 }

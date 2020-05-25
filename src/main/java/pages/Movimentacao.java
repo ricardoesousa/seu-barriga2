@@ -42,6 +42,9 @@ public class Movimentacao  {
     @FindBy(css="div.alert.alert-success")
     private WebElement msgMovimentacaoAdicionadaComSucesso;
 
+    @FindBy(css="div.alert.alert-danger")
+    private WebElement msgMovimentacaoComDataMenor;
+
     public void preencheFormulario (String tipoMovimentacao, String dataMovimentacao, String dataPagamento, String descricao, String interessado, String valor, String conta, String situacao ) {
 
         new Select(txtTipodeMovimentacao).selectByVisibleText(tipoMovimentacao);
@@ -55,7 +58,7 @@ public class Movimentacao  {
             rdoPendente.click();}
         if (situacao == "pago"){
             rdoPago.click();}
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
 
     }
 
@@ -66,7 +69,14 @@ public class Movimentacao  {
     public boolean validaMovimentacao (String valMovimentacao) {
         String txtMovimentacaoAdicionadaComSucesso = msgMovimentacaoAdicionadaComSucesso.getText();
         assertEquals(valMovimentacao, txtMovimentacaoAdicionadaComSucesso);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
+        return true;
+    }
+
+    public boolean validaMovimentacaoDataMenor (String valMovimentacaoDataMenor) {
+        String txtMovimentacaoComDataMenor = msgMovimentacaoComDataMenor.getText();
+        assertEquals(valMovimentacaoDataMenor, txtMovimentacaoComDataMenor);
+        Report.tiraFotoDaTela();
         return true;
     }
 }

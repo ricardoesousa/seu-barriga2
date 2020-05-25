@@ -1,3 +1,9 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="roes" />
+  <dictionary name="roes">
+    <words>
+      <w>cadastrada</w>
+      <w>emailformatoinvalido</w>
+      <w>senhaerrada</w>
+    </words>
+  </dictionary>
 </component>

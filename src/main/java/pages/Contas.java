@@ -20,7 +20,7 @@ public class Contas  {
 
     public void preencheFormulario (String nome) {
         txtNome.sendKeys(nome);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
     }
 
     public void salvaConta (){
@@ -30,7 +30,7 @@ public class Contas  {
     public boolean validaConta(String valConta) {
         String txtContaAdicionadaComSucesso = msgContaAdicionadaComSucesso.getText();
         assertEquals(valConta, txtContaAdicionadaComSucesso);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
         return true;
     }
 

@@ -14,7 +14,7 @@ public class Home {
     public boolean validaEntrada(String valEntrada) {
         String txtBemVindo = msgBemVindo.getText();
         assertEquals(valEntrada, txtBemVindo);
-        Report.takeScreenshot();
+        Report.tiraFotoDaTela();
         return true;
     }
 

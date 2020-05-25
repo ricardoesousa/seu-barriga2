@@ -2,16 +2,112 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
+    "name" : "Cadastro",
+    "children" : [ {
+      "name" : "CT001 - Cadastro - Criar novo usuário com sucesso",
+      "uid" : "1e65a3eaf53b5f30",
+      "parentUid" : "73d698460f0a5f807d8925aad1c0747c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442354445,
+        "stop" : 1590442372745,
+        "duration" : 18300
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CT002 - Cadastro - Criar novo usuário com email em formato inválido",
+      "uid" : "9356c1f3c9fbcebf",
+      "parentUid" : "73d698460f0a5f807d8925aad1c0747c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442373457,
+        "stop" : 1590442383632,
+        "duration" : 10175
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73d698460f0a5f807d8925aad1c0747c"
+  }, {
+    "name" : "Conta",
+    "children" : [ {
+      "name" : "CT001 - Conta - Criar conta com sucesso",
+      "uid" : "207f5a5200cb3794",
+      "parentUid" : "05b58372d7a00e455d1ef107f756c5e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442383642,
+        "stop" : 1590442392923,
+        "duration" : 9281
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CT002 - Conta - Criar conta com nome vazio",
+      "uid" : "1e6a3f8e96b56650",
+      "parentUid" : "05b58372d7a00e455d1ef107f756c5e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442392962,
+        "stop" : 1590442402147,
+        "duration" : 9185
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05b58372d7a00e455d1ef107f756c5e8"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "CT001 - Login - Efetuar login com sucesso",
+      "uid" : "e52e1b1a57f4b83b",
+      "parentUid" : "19e178db3ae5a62d0eab84dca72fd59e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442402168,
+        "stop" : 1590442410072,
+        "duration" : 7904
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CT002 - Login - Efetuar login com senha inválida",
+      "uid" : "b803562231bb6b4e",
+      "parentUid" : "19e178db3ae5a62d0eab84dca72fd59e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442410080,
+        "stop" : 1590442418324,
+        "duration" : 8244
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "19e178db3ae5a62d0eab84dca72fd59e"
+  }, {
     "name" : "Movimentação",
     "children" : [ {
       "name" : "CT001 - Movimentação - Criar movimentação com sucesso",
-      "uid" : "9217cb481ad26fb",
+      "uid" : "60d48f58c6444ed2",
       "parentUid" : "9edecea67d39057a18c60180f33678fc",
       "status" : "passed",
       "time" : {
-        "start" : 1590092058486,
-        "stop" : 1590092087615,
-        "duration" : 29129
+        "start" : 1590442418338,
+        "stop" : 1590442429823,
+        "duration" : 11485
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CT001 - Movimentação - Criar movimentação com data posterior à atual",
+      "uid" : "acf412f9128b2c66",
+      "parentUid" : "9edecea67d39057a18c60180f33678fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590442429830,
+        "stop" : 1590442440615,
+        "duration" : 10785
       },
       "flaky" : false,
       "parameters" : [ ]
